@@ -6,12 +6,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
+import { AppComponent } from '../../components/app/app.component';
+import { HomeComponent } from '../../components/home/home.component';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from '../app-routing/app-routing.module';
 
-import { ElectronService } from './providers/electron.service';
+import { ElectronService } from '../../services/electron/electron.service';
 
 @NgModule({
   declarations: [
